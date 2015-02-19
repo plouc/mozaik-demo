@@ -16,7 +16,6 @@
     "mozaik-ext-heroku": "*",
     "mozaik-ext-time": "*",
     "mozaik-ext-travis": "*",
-    "mozaik-ext-twitter": "*",
     "mozaik-ext-weather": "*",
     "react": "^0.12.2",
     "reactify": "^1.0.0",

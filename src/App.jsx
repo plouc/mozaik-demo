@@ -4,7 +4,6 @@ var Mozaik        = mozaik.Component.Mozaik;
 var ConfigActions = mozaik.Actions.Config;
 
 mozaik.addBatch('github',  require('mozaik-ext-github'));
-mozaik.addBatch('twitter', require('mozaik-ext-twitter'));
 mozaik.addBatch('heroku',  require('mozaik-ext-heroku'));
 mozaik.addBatch('travis',  require('mozaik-ext-travis'));
 mozaik.addBatch('time',    require('mozaik-ext-time'));
