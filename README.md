@@ -23,6 +23,13 @@ npm install
 gulp publish
 ```
 
+### Add heroku & github tokens in a `.env` file
+
+```
+GITHUB_API_TOKEN=xxxxx
+HEROKU_API_TOKEN=xxxxx
+```
+
 ### Run the app
 
 ```bash
