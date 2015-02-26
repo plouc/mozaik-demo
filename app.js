@@ -1,8 +1,8 @@
 var mozaik = new (require('mozaik'))(require('./config'));
 
-mozaik.hub.registerApi('github',  require('mozaik-ext-github/client'));
-mozaik.hub.registerApi('travis',  require('mozaik-ext-travis/client'));
-mozaik.hub.registerApi('heroku',  require('mozaik-ext-heroku/client'));
-mozaik.hub.registerApi('weather', require('mozaik-ext-weather/client'));
+mozaik.bus.registerApi('github',  require('mozaik-ext-github/client'));
+mozaik.bus.registerApi('travis',  require('mozaik-ext-travis/client'));
+mozaik.bus.registerApi('heroku',  require('mozaik-ext-heroku/client'));
+mozaik.bus.registerApi('weather', require('mozaik-ext-weather/client'));
 
 mozaik.startServer();
