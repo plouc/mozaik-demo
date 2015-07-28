@@ -1,14 +1,22 @@
-var React         = require('react');
-var mozaik        = require('mozaik/browser');
-var Mozaik        = mozaik.Component.Mozaik;
-var ConfigActions = mozaik.Actions.Config;
+import React             from 'react';
+import Mozaik            from 'mozaik/browser';
+import githubComponents  from 'mozaik-ext-github';
+//import herokuComponents  from 'mozaik-ext-heroku';
+//import travisComponents  from 'mozaik-ext-travis';
+//import timeComponents    from 'mozaik-ext-time';
+//import weatherComponents from 'mozaik-ext-weather';
 
-mozaik.addBatch('github',  require('mozaik-ext-github'));
-mozaik.addBatch('heroku',  require('mozaik-ext-heroku'));
-mozaik.addBatch('travis',  require('mozaik-ext-travis'));
-mozaik.addBatch('time',    require('mozaik-ext-time'));
-mozaik.addBatch('weather', require('mozaik-ext-weather'));
+const MozaikComponent = Mozaik.Component.Mozaik;
+const ConfigActions   = Mozaik.Actions.Config;
 
-React.render(<Mozaik />, document.getElementById('mozaik'));
+Mozaik.Registry.addExtensions({
+    github:  githubComponents,
+    //heroku:  herokuComponents,
+    //travis:  travisComponents,
+    //time:    timeComponents,
+    //weather: weatherComponents
+});
+
+React.render(<MozaikComponent/>, document.getElementById('mozaik'));
 
 ConfigActions.loadConfig();
