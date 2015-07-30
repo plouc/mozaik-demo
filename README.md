@@ -1,5 +1,7 @@
 #Mozaïk demo dashboards
 
+[![Travis CI][travis-image]][travis-url]
+
 This repository shows how to use Mozaïk with npm extensions.
 
 ## Installation
@@ -35,4 +37,7 @@ HEROKU_API_TOKEN=xxxxx
 ```bash
 node app.js
 ```
+
+[travis-image]: https://img.shields.io/travis/plouc/mozaik-demo.svg?style=flat-square
+[travis-url]: https://travis-ci.org/plouc/mozaik-demo
 
