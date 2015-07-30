@@ -18,8 +18,9 @@
     "dotenv": "^0.5.1",
     "gulp": "^3.9.0",
     "lodash": "^3.10.0",
-    "mozaik": "1.0.2",
-    "mozaik-ext-github": "1.0.3",
+    "mozaik": "1.0.3",
+    "mozaik-ext-github": "1.0.4",
+    "mozaik-ext-time": "1.0.0",
     "mozaik-ext-travis": "1.0.2",
     "react": "^0.13.3"
   }
