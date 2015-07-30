@@ -22,7 +22,7 @@ npm install
 ### Publish assets (js/css)
 
 ```bash
-gulp publish
+gulp build
 ```
 
 ### Add heroku & github tokens in a `.env` file
