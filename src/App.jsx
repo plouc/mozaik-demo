@@ -1,7 +1,7 @@
 import React             from 'react';
 import Mozaik            from 'mozaik/browser';
 import githubComponents  from 'mozaik-ext-github';
-//import herokuComponents  from 'mozaik-ext-heroku';
+import herokuComponents  from 'mozaik-ext-heroku';
 import travisComponents  from 'mozaik-ext-travis';
 import timeComponents    from 'mozaik-ext-time';
 import weatherComponents from 'mozaik-ext-weather';
@@ -13,7 +13,7 @@ const ConfigActions   = Mozaik.Actions.Config;
 
 Mozaik.Registry.addExtensions({
     github:  githubComponents,
-    //heroku:  herokuComponents,
+    heroku:  herokuComponents,
     travis:  travisComponents,
     time:    timeComponents,
     weather: weatherComponents
