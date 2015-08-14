@@ -25,11 +25,12 @@ npm install
 gulp build
 ```
 
-### Add heroku & github tokens in a `.env` file
+### Add github tokens in a `.env` file
+
+This step is optional, it's useful if you want to bypass github api rate limit.
 
 ```
 GITHUB_API_TOKEN=xxxxx
-HEROKU_API_TOKEN=xxxxx
 ```
 
 ### Run the app
