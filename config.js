@@ -47,8 +47,8 @@ var config = {
                     x: 0, y: 0
                 },
                 {
-                    type: 'heroku.app_info',
-                    app: 'mozaik',
+                    type: 'github.repository_contributors_stats',
+                    repository: 'plouc/mozaik',
                     columns: 1, rows: 1,
                     x: 2, y: 0
                 },
@@ -95,8 +95,7 @@ var config = {
                     x: 1, y: 2
                 },
                 {
-                    type: 'heroku.app_info',
-                    app: 'protofight',
+                    type: 'github.status',
                     columns: 1, rows: 1,
                     x: 0, y: 2
                 }
