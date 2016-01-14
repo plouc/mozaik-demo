@@ -18,7 +18,7 @@
     "dotenv": "^0.5.1",
     "gulp": "^3.9.0",
     "lodash": "^3.10.0",
-    "mozaik": "1.0.8",
+    "mozaik": "1.0.9",
     "mozaik-ext-github": "1.0.6",
     "mozaik-ext-time": "1.0.0",
     "mozaik-ext-travis": "1.0.3",
@@ -26,6 +26,9 @@
     "react": "^0.13.3"
   },
   "scripts": {
-    "test": "gulp build"
+    "test": "npm run build-assets",
+    "start": "node app.js",
+    "postinstall": "if $BUILD_ASSETS; then npm run build-assets; fi",
+    "build-assets": "gulp build"
   }
 }
