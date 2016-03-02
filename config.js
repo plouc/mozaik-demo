@@ -29,7 +29,7 @@ var config = {
         }
     },
 
-    // define duration beetwen each dashboard rotation (ms)
+    // define duration between each dashboard rotation (ms)
     rotationDuration: 8000,
 
     dashboards: [
