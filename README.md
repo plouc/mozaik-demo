@@ -25,13 +25,11 @@ npm install
 gulp build
 ```
 
-### Add github tokens in a `.env` file
+### Add github and open weather map tokens in a `.env` file
 
-This step is optional, it's useful if you want to bypass github api rate limit.
+You should use the `.env.sample` file provided with this repo,
+just rename it to `.env` and put in your own credentials.
 
-```
-GITHUB_API_TOKEN=xxxxx
-```
 
 ### Run the app
 
