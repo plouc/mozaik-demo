@@ -18,11 +18,11 @@
     "dotenv": "^0.5.1",
     "gulp": "^3.9.0",
     "lodash": "^3.10.0",
-    "mozaik": "1.0.11",
+    "mozaik": "1.0.13",
     "mozaik-ext-github": "1.0.6",
-    "mozaik-ext-time": "1.0.0",
+    "mozaik-ext-time": "1.0.2",
     "mozaik-ext-travis": "1.0.4",
-    "mozaik-ext-weather": "1.0.0",
+    "mozaik-ext-weather": "1.1.0",
     "react": "^0.13.3"
   },
   "scripts": {
