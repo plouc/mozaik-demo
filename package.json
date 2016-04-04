@@ -25,7 +25,7 @@
     "mozaik-ext-github": "1.2.0-rc.1",
     "mozaik-ext-time": "1.1.0-rc.2",
     "mozaik-ext-travis": "1.1.0-rc.1",
-    "mozaik-ext-weather": "1.1.0",
+    "mozaik-ext-weather": "1.2.0-rc.1",
     "react": "^0.13.3"
   },
   "scripts": {
