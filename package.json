@@ -23,7 +23,7 @@
     "lodash": "^3.10.0",
     "mozaik": "1.1.0-alpha.1",
     "mozaik-ext-github": "1.2.0-rc.1",
-    "mozaik-ext-time": "1.1.0-rc.1",
+    "mozaik-ext-time": "1.1.0-rc.2",
     "mozaik-ext-travis": "1.1.0-rc.1",
     "mozaik-ext-weather": "1.1.0",
     "react": "^0.13.3"
