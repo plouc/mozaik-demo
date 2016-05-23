@@ -13,6 +13,7 @@ var config = {
     // + yellow
     // + light-yellow
     // + bordeau
+    // + snow
     theme: 'night-blue',
 
     // clients configs
