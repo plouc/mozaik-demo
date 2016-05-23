@@ -8,12 +8,13 @@ var config = {
     port: process.env.PORT || 5000,
 
     // Available themes:
-    // + night-blue
-    // + light-grey
-    // + yellow
-    // + light-yellow
     // + bordeau
+    // + harlequin
+    // + light-grey
+    // + light-yellow
+    // + night-blue
     // + snow
+    // + yellow
     theme: 'night-blue',
 
     // clients configs
