@@ -32,6 +32,7 @@
     "test": "npm run build-assets",
     "start": "node app.js",
     "postinstall": "if $BUILD_ASSETS; then npm run build-assets; fi",
-    "build-assets": "gulp build"
+    "build-assets": "gulp build",
+    "watch": "gulp watch"
   }
 }
