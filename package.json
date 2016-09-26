@@ -11,6 +11,7 @@
     "name": "Raphaël Benitte",
     "url": "https://github.com/plouc"
   },
+  "engineStrict": true,
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.0.0"
@@ -20,6 +21,8 @@
     "dotenv": "^0.5.1",
     "mozaik": ">=2.0.0-alpha",
     "mozaik-ext-github": ">=2.0.0-alpha",
+    "mozaik-ext-gitlab": ">=2.0.0-alpha",
+    "mozaik-ext-time": ">=2.0.0-alpha",
     "mozaik-ext-travis": ">=2.0.0-alpha",
     "react": "15.3.0",
     "react-dom": "15.3.0"
