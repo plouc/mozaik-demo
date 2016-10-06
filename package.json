@@ -40,6 +40,7 @@
   "scripts": {
     "test": "npm run build",
     "start": "node app.js",
-    "build": "NODE_ENV=production webpack"
+    "build": "NODE_ENV=production webpack",
+    "postinstall": "if $BUILD_ASSETS; then npm run build; fi"
   }
 }
