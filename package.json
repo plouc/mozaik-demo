@@ -13,8 +13,8 @@
   },
   "engineStrict": true,
   "engines": {
-    "node": ">=6.0.0",
-    "npm": ">=3.0.0"
+    "node": "6.x",
+    "npm": "3.x"
   },
   "dependencies": {
     "babel-register": "6.7.2",
