@@ -19,11 +19,11 @@
   "dependencies": {
     "babel-register": "6.7.2",
     "dotenv": "^0.5.1",
-    "mozaik": "2.x",
-    "mozaik-ext-github": "2.x",
-    "mozaik-ext-gitlab": "2.x",
-    "mozaik-ext-time": "2.x",
-    "mozaik-ext-travis": "2.x",
+    "mozaik": ">2.0.0-alpha.8",
+    "mozaik-ext-github": ">2.0.0-alpha.0",
+    "mozaik-ext-gitlab": ">2.0.0-alpha.0",
+    "mozaik-ext-time": ">2.0.0-alpha.0",
+    "mozaik-ext-travis": ">2.0.0-alpha.0",
     "react": "15.3.0",
     "react-dom": "15.3.0"
   },
