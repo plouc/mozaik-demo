@@ -1,4 +1,4 @@
-#Mozaïk demo dashboards
+# Mozaïk demo dashboards
 
 [![Travis CI][travis-image]][travis-url]
 
