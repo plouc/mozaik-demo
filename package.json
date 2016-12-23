@@ -20,10 +20,10 @@
     "babel-register": "6.7.2",
     "dotenv": "0.5.1",
     "mozaik": "2.0.0-alpha.10",
-    "mozaik-ext-github": "2.0.0-alpha.0",
+    "mozaik-ext-github": "2.0.0-alpha.1",
     "mozaik-ext-gitlab": "2.0.0-alpha.1",
-    "mozaik-ext-time": "2.0.0-alpha.0",
-    "mozaik-ext-travis": "2.0.0-alpha.0",
+    "mozaik-ext-time": "2.0.0-alpha.1",
+    "mozaik-ext-travis": "2.0.0-alpha.1",
     "react": "15.3.0",
     "react-dom": "15.3.0"
   },
