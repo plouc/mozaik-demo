@@ -1,7 +1,9 @@
 .DS_Store
-node_modules
-build
 .env
 .idea
-npm-debug.log*
+/node_modules
+/build
+*.log*
 config-*.yml
+!config-github.yml
+!config-travis.yml
