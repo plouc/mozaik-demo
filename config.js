@@ -77,11 +77,9 @@ var config = {
                     x: 3, y: 0
                 },
                 {
-                    type: 'weather.weather',
-                    city: 'Tokyo',
-                    country: 'JP',
-                    lang: 'en',
-                    limit: 2,
+                    type: 'travis.repository',
+                    owner: 'plouc',
+                    repository: 'mozaik-demo',
                     columns: 1, rows: 1,
                     x: 0, y: 1
                 },
