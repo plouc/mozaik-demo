@@ -1,6 +1,6 @@
 {
   "name": "mozaik-demo",
-  "version": "2.0.0-alpha.13",
+  "version": "2.0.0-alpha.14",
   "description": "Mozaïk demo dashboard",
   "repository": {
     "type": "git",
@@ -19,17 +19,16 @@
   "dependencies": {
     "d3": "4.2.6",
     "dotenv": "^2.0.0",
-    "font-awesome": "^4.7.0",
-    "mozaik": "^2.0.0-alpha.13",
-    "mozaik-ext-github": "^2.0.0-alpha.3",
-    "mozaik-ext-travis": "^2.0.0-alpha.2",
-    "mozaik-themes": "^1.0.0-alpha.1",
     "nivo": "^1.0.0-alpha.8",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "@mozaik/server": "^2.0.0-alpha.2",
+    "@mozaik/ui": "^2.0.0-alpha.7",
+    "@mozaik/ext-github": "^2.0.0-alpha.0",
+    "@mozaik/ext-travis": "^2.0.0-alpha.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "react-scripts": "0.8.4"
+    "react-scripts": "1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,5 +37,13 @@
     "eject": "react-scripts eject",
     "postinstall": "npm run build"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": {
+    "/socket": {
+      "target": "ws://localhost:5000",
+      "ws": true
+    },
+    "/config": {
+      "target": "http://localhost:5000"
+    }
+  }
 }

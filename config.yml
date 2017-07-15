@@ -89,14 +89,14 @@ dashboards:
     x:            0
     y:            2
 
-  - extension:   travis
-    widget:      BuildHistogram
-    owner:       plouc
-    repository:  mozaik
-    columns:     2
-    rows:        1
-    x:           1
-    y:           2
+#  - extension:   travis
+#    widget:      BuildHistogram
+#    owner:       plouc
+#    repository:  mozaik
+#    columns:     2
+#    rows:        1
+#    x:           1
+#    y:           2
 
   - extension:   travis
     widget:      BuildHistory
