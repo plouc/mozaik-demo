@@ -7,3 +7,7 @@ This repository shows how to use Mozaïk with npm extensions, [installation inst
 [travis-image]: https://img.shields.io/travis/plouc/mozaik-demo.svg?style=flat-square
 [travis-url]: https://travis-ci.org/plouc/mozaik-demo
 
+## Run locally (develop mode)
+```
+yarn start
+```
