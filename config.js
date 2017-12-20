@@ -32,7 +32,7 @@ var config = {
     },
 
     // define duration between each dashboard rotation (ms)
-    rotationDuration: 8000,
+    // rotationDuration: 8000,
 
     // define the interval used by Mozaïk Bus to call registered APIs
     apisPollInterval: 15000,
