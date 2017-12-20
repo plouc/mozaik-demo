@@ -53,7 +53,8 @@ var config = {
                 },
                 {
                     type: 'github.user_badge',
-                    user: 'plouc',
+                    // set my giyhub name, see my info and my profile thumb
+                    user: 'valeriosillari',
                     columns: 1, rows: 1,
                     x: 2, y: 0
                 },
