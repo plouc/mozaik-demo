@@ -1605,10 +1605,6 @@ dotenv@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-2.0.0.tgz#bd759c357aaa70365e01c96b7b0bec08a6e0d949"
 
-dotenv@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-0.5.1.tgz#87d181f76102afd1a2b85c277ddd8b8795dc565b"
-
 duplexer2@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/duplexer2/-/duplexer2-0.0.2.tgz#c614dcf67e2fb14995a91711e5a617e8a60a31db"
