@@ -11,3 +11,10 @@ This repository shows how to use Mozaïk with npm extensions, [installation inst
 ```
 yarn start
 ```
+
+## TODO / CHECK
+- remove .babelrc and set babel ENV logic in package.json file (as in SPW)
+- update node version (in package.json)
+- remove npm and set yarn as package manager (in package.json)
+- update react version (in package.json) ???
+- remove travis ???
