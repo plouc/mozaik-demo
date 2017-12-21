@@ -12,6 +12,11 @@ This repository shows how to use Mozaïk with npm extensions, [installation inst
 yarn start
 ```
 
+The check page at local page:
+```
+http://0.0.0.0:5000/
+```
+
 ## TODO / CHECK
 - remove .babelrc and set babel ENV logic in package.json file (as in SPW)
 - update node version (in package.json)

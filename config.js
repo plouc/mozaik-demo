@@ -1,6 +1,7 @@
 var config = {
     env:  'prod',
 
+    // TODO: set here ater info about prod server! this is just for local host
     host: '0.0.0.0',
     port: 5000,
 
