@@ -1,11 +1,8 @@
-// Load environment variables from .env file if available
-require('dotenv').load();
-
 var config = {
     env:  'prod',
 
     host: '0.0.0.0',
-    port: process.env.PORT || 5000,
+    port: 5000,
 
     // Available themes:
     // + bordeau
