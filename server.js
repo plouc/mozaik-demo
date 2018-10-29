@@ -1,7 +1,7 @@
 require('dotenv').load({ silent: true })
 
 const path = require('path')
-const Mozaik = require('@mozaik/server')
+const Mozaik = require('@mozaik/server').default
 
 let configFile = process.argv[2] || 'conf/config.yml'
 
