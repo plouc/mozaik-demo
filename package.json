@@ -1,7 +1,7 @@
 {
   "name": "mozaik-demo",
   "description": "Mozaïk demo dashboard",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/plouc/mozaik-demo"
@@ -25,8 +25,8 @@
     "@mozaik/themes": "1.0.0-alpha.16",
     "@mozaik/ui": "^2.0.0-alpha.15",
     "nivo": "^0.15.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.10"

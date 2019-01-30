@@ -1,11 +1,12 @@
 host: 0.0.0.0
 port: 5000
 
-# define duration between each dashboard rotation (ms)
-rotationDuration: 8000
+# define duration between each dashboard rotation (s)
+rotationDuration: 8
 
-# define the interval used by Mozaïk Bus to call registered APIs
-apisPollInterval: 100000
+# define the interval used by Mozaïk Bus to call registered APIs (ms)
+apis:
+  pollInterval: 100000
 
 extension: &extension gitlab
 gitlabProject: &gitlabProject gitlab-org/release-tools

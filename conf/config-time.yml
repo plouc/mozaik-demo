@@ -1,9 +1,10 @@
 port: 5000
 
-# define duration between each dashboard rotation (ms)
-rotationDuration: 10000
-# define the interval used by Mozaïk Bus to call registered APIs
-apisPollInterval: 100000
+# define duration between each dashboard rotation (s)
+rotationDuration: 10
+# define the interval used by Mozaïk Bus to call registered APIs (ms)
+apis:
+  pollInterval: 100000
 
 dashboards:
 - columns: 4
