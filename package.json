@@ -25,10 +25,11 @@
     "@mozaik/themes": "1.0.0-alpha.16",
     "@mozaik/ui": "^2.0.0-alpha.15",
     "nivo": "^0.15.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "react-scripts": "1.0.10"
   },
   "proxy": {
@@ -41,7 +42,7 @@
     }
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently --kill-others \"react-scripts start\" \"node server.js\"",
     "build": "react-scripts build",
     "test": "npm run build",
     "postinstall": "npm run build"
