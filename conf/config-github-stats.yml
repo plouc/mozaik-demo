@@ -2,8 +2,9 @@ port: 5000
 
 # define duration between each dashboard rotation (seconds)
 rotationDuration: 10
-# define the interval used by Mozaïk Bus to call registered APIs
-apisPollInterval: 100000
+# define the interval used by Mozaïk Bus to call registered APIs (ms)
+apis:
+  pollInterval: 100000
 
 extension:   &extension github
 github_user: &github_user plouc
