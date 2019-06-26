@@ -8,8 +8,8 @@
 #
 port: 5000
 
-# define duraton between each dashboard rotation (ms)
-rotationDuration: 10000
+# define duraton between each dashboard rotation (secs)
+rotationDuration: 10
 # define the interval used by Mozaïk Bus to call registered APIs
 apisPollInterval: 100000
 
