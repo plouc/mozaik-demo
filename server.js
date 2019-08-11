@@ -9,7 +9,7 @@ console.log(`> using config file: '${configFile}'\n`)
 
 Mozaik.configureFromFile(path.join(__dirname, configFile))
     .then(config => {
-        require('./src/register_apis')(Mozaik, configFile, config)
+        require('./src/register_apis')(Mozaik)
         Mozaik.start()
     })
     .catch(err => {
